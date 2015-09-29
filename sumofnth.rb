@@ -17,6 +17,7 @@ class SumOfNth
   def add_series(x) 
     @user_number = x 
     puts "You want to add #{x} of the numbers in the series together."
+    denominator
     # Add x amount of values in the series. 
   end
 end
