@@ -1,12 +1,12 @@
 class SumOfNth
 
-  def denominator 
-    # count from 1 and add 3 as many times as requested from user.
+  def denominator
+    denomator_numbers = [1] 
     beginning = 1
     @user_number.times do 
-      
       puts "Hello! #{beginning}"
       beginning += 3
+      denomator_numbers << beginning
     end
 
   end
