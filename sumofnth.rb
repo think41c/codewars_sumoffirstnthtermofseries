@@ -20,9 +20,10 @@ class SumOfNth
     @user_number = x 
     puts "You want to add #{x} of the numbers in the series together."
     a = denominator 
-    p a
-    answer = 1 / a[0]
-    p answer
+    p a[1]
+    p 1/4.to_f
+    answer = 1.to_f / a[1].to_f
+    p answer.to_f
   end
 end
 
