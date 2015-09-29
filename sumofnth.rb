@@ -1,14 +1,15 @@
 class SumOfNth
 
   def denominator
-    denomator_numbers = [1] 
+    denomator_numbers = [] 
     beginning = 1
     @user_number.times do 
+      denomator_numbers << beginning
       puts "Hello! #{beginning}"
       beginning += 3
-      denomator_numbers << beginning
+      
     end
-
+    p denomator_numbers
   end
 
 	def series_generator
