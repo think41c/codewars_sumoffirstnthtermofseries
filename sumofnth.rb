@@ -2,6 +2,11 @@ class SumOfNth
 
   def denominator 
     # count from 1 and add 3 as many times as requested from user.
+    beginning = 1
+    @user_number.times do 
+      puts "Hello!"
+    end
+
   end
 
 	def series_generator
@@ -10,6 +15,7 @@ class SumOfNth
   end 
 
   def add_series(x) 
+    @user_number = x 
     puts "You want to add #{x} of the numbers in the series together."
     # Add x amount of values in the series. 
   end
