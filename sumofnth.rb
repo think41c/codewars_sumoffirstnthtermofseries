@@ -5,9 +5,10 @@ class SumOfNth
   end 
 
   def add_series(x) 
+    puts "You want to add #{x} of the numbers in the series together."
     # Add x amount of values in the series. 
   end
 end
 
-user = SumOfNth
-# user.add_series(x) # where 'x' is always a whole number.
+user = SumOfNth.new
+user.add_series(5) # where 'x' is always a whole number.
