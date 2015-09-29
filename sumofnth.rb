@@ -4,7 +4,9 @@ class SumOfNth
     # count from 1 and add 3 as many times as requested from user.
     beginning = 1
     @user_number.times do 
-      puts "Hello!"
+      
+      puts "Hello! #{beginning}"
+      beginning += 3
     end
 
   end
