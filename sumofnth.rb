@@ -7,5 +7,7 @@ class SumOfNth
   def add_series(x) 
     # Add x amount of values in the series. 
   end
-
 end
+
+user = SumOfNth
+# user.add_series(x) # where 'x' is always a whole number.
