@@ -7,9 +7,7 @@ class SumOfNth
       denomator_numbers << beginning
       puts "Hello! #{beginning}"
       beginning += 3
-      
     end
-    p denomator_numbers
   end
 
 	def series_generator
@@ -20,7 +18,7 @@ class SumOfNth
   def add_series(x) 
     @user_number = x 
     puts "You want to add #{x} of the numbers in the series together."
-    denominator
+    p denominator
     # Add x amount of values in the series. 
   end
 end
