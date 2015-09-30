@@ -11,9 +11,14 @@ class SumOfNth
     denomator_numbers
   end
 
-	def series_generator
+	def series_generator(dem)
+    first_num = 1.to_f / dem[0].to_f
+    first_num = 1.to_f / dem[1].to_f
+    first_num = 1.to_f / dem[2].to_f
+    puts first_num
     # Generate this - 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16...
     # numerator is always 1. 
+
   end 
 
   def add_series(x) 
@@ -24,6 +29,7 @@ class SumOfNth
     p 1/4.to_f
     answer = 1.to_f / a[1].to_f
     p answer.to_f
+    series_generator(a)
   end
 end
 
