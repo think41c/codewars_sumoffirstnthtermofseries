@@ -12,10 +12,12 @@ class SumOfNth
   end
 
 	def series_generator(dem)
-    first_num = 1.to_f / dem[0].to_f
-    first_num = 1.to_f / dem[1].to_f
-    first_num = 1.to_f / dem[2].to_f
-    puts first_num
+    p "The sequence"
+    p first_num = 1.to_f / dem[0].to_f
+    p first_num = 1.to_f / dem[1].to_f
+    p first_num = 1.to_f / dem[2].to_f
+    p first_num = 1.to_f / dem[3].to_f
+    p first_num = 1.to_f / dem[4].to_f
     # Generate this - 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16...
     # numerator is always 1. 
 
