@@ -5,7 +5,7 @@ class SumOfNth
     beginning = 1
     @user_number.times do 
       denomator_numbers << beginning
-      puts "Hello! #{beginning}"
+      puts "Number adding to the array is -> #{beginning}"
       beginning += 3
     end
     denomator_numbers
