@@ -19,8 +19,6 @@ class SumOfNth
       start += 1
     end
 
-    # Generate this - 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16...
-    # numerator is always 1. 
 
   end 
 
