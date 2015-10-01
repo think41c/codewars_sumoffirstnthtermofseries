@@ -15,7 +15,8 @@ class SumOfNth
     p "The sequence"
     start = 0
     @user_number.times do
-      p 1.to_f / dem[start].to_f
+      fraction = 1.to_f / dem[start].to_f
+      p fraction.round(2)      
       start += 1
     end
   end
