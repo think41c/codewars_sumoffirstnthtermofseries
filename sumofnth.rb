@@ -16,7 +16,7 @@ class SumOfNth
     start = 0
     @user_number.times do
       fraction = 1.to_f / dem[start].to_f
-      p fraction.round(2)      
+      p '%.2f' % fraction.round(2)      
       start += 1
     end
   end
@@ -35,3 +35,4 @@ end
 
 user = SumOfNth.new
 user.add_series(5) # where 'x' is always a whole number.
+puts '%.2f' % 100
