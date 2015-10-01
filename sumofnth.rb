@@ -16,7 +16,8 @@ class SumOfNth
     start = 0
     @user_number.times do
       fraction = 1.to_f / dem[start].to_f
-      p '%.2f' % fraction.round(2)      
+      a = '%.2f' % fraction.round(2)      
+      puts a
       start += 1
     end
   end
@@ -28,7 +29,7 @@ class SumOfNth
     p a[1]
     p 1/4.to_f
     answer = 1.to_f / a[1].to_f
-    p answer.to_f
+    puts "the answer is #{answer}"
     series_generator(a)
   end
 end
