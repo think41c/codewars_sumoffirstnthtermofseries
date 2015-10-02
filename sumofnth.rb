@@ -20,15 +20,13 @@ class SumOfNth
     end
   end
 
-  def add_series(x)
-    @user_number = x
-    puts "You want to add #{x} of the numbers in the series together."
+  def add_series(user_number)
+    @user_number = user_number
+    puts "You want to add #{user_number} of the numbers in the series together."
     a = denominator
-    p 1/4.to_f
     series_generator(a)
   end
 end
 
 user = SumOfNth.new
 user.add_series(5) # where 'x' is always a whole number.
-#puts '%.2f' % 10
